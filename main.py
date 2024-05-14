@@ -51,7 +51,7 @@ def main():
     st.title('Car Price Predictor')
 
     # Input fields
-    name = st.text_input('Car Name', '')
+    name = st.text_input('Company Name', '')
     year = st.number_input('Year', min_value=1900, max_value=2024, step=1)
     km_driven = st.number_input('Kilometers Driven', value=0)
     fuel = st.selectbox('Fuel Type', ['Petrol', 'Diesel', 'CNG', 'LPG'])
